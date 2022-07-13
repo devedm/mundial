@@ -228,6 +228,8 @@ let eContainerPaises = document.querySelector('#accordionPaises')
 
 for (let pais in equipos) {
 	divContainer = document.createElement('div');
+	listaJugadores = pais.jugadores
+	listaPosiciones = pais.posiciones
 	divContainer.innerHTML = `
 	<div class="accordion-item">
             <h2 class="accordion-header" id="title-${pais}">
@@ -243,12 +245,47 @@ for (let pais in equipos) {
             </h2>
             <div id="text-${pais}" class="accordion-collapse collapse show" aria-labelledby=title-${pais}" data-bs-parent="#accordionPaises">
                 
-				<div class="accordion-body">
+				<div class="accordion-body" id="container-${pais}">
 					
                 </div>
             </div>
         </div>
 	`;
 	eContainerPaises.appendChild(divContainer);
+	playerContainer = document.querySelector(`#container-${pais}`)
+	tableContainer = document.createElement(`table-${pais}`)
+	tableContainer.classList.add('table')
+
+	tableThead = document.createElement('thead')
+
+	tableTr = document.createElement('tr')
+
+	thName = document.createElement('th')
+	thName.setAttribute('scope','col')
+	thName.innerText = 'Nombre'
+
+	thPosicion = document.createElement('th')
+	thPosicion.setAttribute('scope','col')
+	thPosicion.innerText = 'Posicion'
+
+	tableTr.appendChild(thName)
+	tableTr.appendChild(thPosicion)
+	tableThead.appendChild(tableTr)
+	playerContainer.appendChild(tableContainer)
+
+	tableTbody = document.createElement('tbody')
+	
+	// for (let index = 0; index < pais.jugadores.length; index++) {
+	// 	const nombreJugador = pais.jugadores[index];
+	// 	const posicionJugador = pais.posiciones[index];
+	// 	jugadorItem = document.createElement('tr')
+	// 	rowItem = document.createElement('td')
+
+	// 	tableTbody.appendChild(jugadorItem)
+	// }
+
+	playerContainer.appendChild(tableTbody)
+
+	
 }
 
