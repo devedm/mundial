@@ -17,7 +17,7 @@ const equipos = {
         'jugadores':[
 			'Seny Dieng','Édouard Mendy','Alfred Gomis','Alioune Badara Faty','Saliou Ciss','Kalidou Koulibaly','Pape Abou Cissé','Fodé Ballo-Touré','Abdoulaye Seck','Bouna Sarr','Ibrahima Mbaye','Abdou Diallo','Idrissa Gueye','Nampalys Mendy','Cheikhou Kouyaté','Joseph Lopy','Pape Matar Sarr','Moustapha Name','Mamadou Loum N\'Diaye','Pape Gueye','Keita Baldé','Boulaye Dia','Sadio Mané','Habib Diallo','Bamba Dieng','Ismaïla Sarr','Famara Diédhiou','Mame Thiam',
 		],'posiciones':[
-			'Portero','Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero'
+			'POR','POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL','DEL','DEL','DEL','DEL','DEL'
 		]
     },
 	'Paises_Bajos':{
@@ -38,7 +38,7 @@ const equipos = {
         'jugadores':[
 			'Mohammad Reza Akhbari','Payam Niazmand','Amir Abedzadeh','Sadegh Moharrami','Milad Mohammadi','Morteza Pouraliganji','Hossein Kanaanizadegan','Saleh Hardani','Omid Noorafkan','Aref Aghasi','Siavash Yazdani','Soroosh Rafiei','Saeid Ezatolahi','Ahmad Nourollahi','Vahid Amiri','Saman Ghoddos','Mehdi Torabi','Kamal Kamyabinia','Shahab Zahedi','Alireza Jahanbakhsh','Mehdi Taremi','Karim Ansarifard','Sardar Azmoun','Mehdi Torabi','Ali Gholizadeh','Kaveh Rezaei',
 		],'posiciones':[
-			'Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero',
+			'POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL','DEL','DEL','DEL','DEL','DEL',
 		]
     },
 	'Estados_Unidos':{
@@ -52,14 +52,14 @@ const equipos = {
         'jugadores':[
 			'Wayne Hennessey','Danny Ward','Adam Davies','Chris Gunter','Connor Roberts','Chris Mepham','Joe Rodon','James Lawrence','Neco Williams','Rhys Norrington-Davies','Ben Cabango','Jonny Williams','Harry Wilson','Ethan Ampadu','Daniel James','Joe Morrell','Matthew Smith','Dylan Levitt','Josh Sheehan','Gareth Bale','Tom Lawrence','Kieffer Moore','Brennan Johnson',
 		],'posiciones':[
-			'Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero',
+			'POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL','DEL',
 		]
     },
 	'Argentina':{
         'jugadores':[
 			'Franco Armani','Gerónimo Rulli','Emiliano Martínez','Juan Musso','Juan Foyth','Nicolás Tagliafico','Gonzalo Montiel','Germán Pezzella','Marcos Acuña','Cristian Romero','Lisandro Martínez','Nicolás Otamendi','Marcos Senesi','Nahuel Molina','Nehuén Pérez','Alexis Mac Allister','Rodrigo de Paul','Ángel di María','Exequiel Palacios','Nicolás González','Papu Gómez','Guido Rodríguez','Giovani Lo Celso','Leandro Paredes','Julián Álvarez','Lionel Messi','Paulo Dybala','Lautaro Martínez','Joaquín Correa','Ángel Correa','Lionel Scaloni',
 		],'posiciones':[
-			'Portero','Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Entrenador',
+			'POR','POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL','DEL','DEL','DEL','Entrenador',
 		]
     },
 	'Arabia_Saudí':{
@@ -94,14 +94,14 @@ const equipos = {
         'jugadores':[
 			'Mathew Ryan','Danny Vukovic','Andrew Redmayne','Fran Karačić','Milos Degenek','Ryan McGowan','Harry Souttar','Bailey Wright','Aziz Behich','Trent Sainsbury','Rhyan Grant','Nathaniel Atkinson','Brad Smith','James Jeggo','Jackson Irvine','Tom Rogic','Ajdin Hrustic','Aaron Mooy','James Holland','Riley McGree','Denis Genreau','Gianni Stensness','Joel King','Kenny Dougall','Mathew Leckie','Jamie Maclaren','Martin Boyle','Mitchell Duke','Awer Mabil','Nikita Rukavytsya','Chris Ikonomidis',
 		],'posiciones':[
-			'Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero',
+			'POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL','DEL','DEL','DEL','DEL',
 		]
     },
 	'Dinamarca':{
         'jugadores':[
 			'Kasper Schmeichel','Jesper Hansen','Frederik Rønnow','Joachim Andersen','Jannik Vestergaard','Simon Kjær','Joakim Mæhle','Andreas Christensen','Rasmus Nissen Kristensen','Jens Stryger Larsen','Mathias Jensen','Thomas Delaney','Mikkel Damsgaard','Christian Nørgaard','Daniel Wass','Pierre-Emile Højbjerg','Mohamed Daramy','Jacob Bruun Larsen','Andreas Skov Olsen','Kasper Dolberg','Jonas Wind','Yussuf Poulsen','Andreas Cornelius',
 		],'posiciones':[
-			'Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Delantero','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero',
+			'POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','DEL','MED','MED','MED','DEL','DEL','DEL','DEL','DEL','DEL','DEL',
 		]
     },
 	'Tunez':{
@@ -150,26 +150,26 @@ const equipos = {
         'jugadores':[
 			'Dayne St. Clair','Maxime Crépeau','Milan Borjan','Alistair Johnston','Kamal Miller','Steven Vitória','Scott Kennedy','Alphonso Davies','Doneil Henry','Richie Laryea','Tyler Pasher','Samuel Piette','Atiba Hutchinson','Stephen Eustáquio','Liam Fraser','Harry Paton','Jonathan Osorio','Lucas Cavallini','Junior Hoilett','Theodor Corbeanu','Tajon Buchanan','Cyle Larin','Jonathan David','Ayo Akinola',
 		],'posiciones':[
-			'Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Mediocampista','Mediocampista','Delantero','Delantero','Delantero',
+			'POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','MED','MED','DEL','DEL','DEL',
 		]
     },
 	'Marruecos':{
         'jugadores':[
 			'Yassine Bounou','Munir El Kajoui','Ahmed Reda Tagnaouti','Romain Saïss','Achraf Hakimi','Nayef Aguerd','Adam Masina','Samy Mmaee','Sofian Chakla','Souffian El Karouani','Sofiane Alakouch','Mohamed Chibi','Fayçal Fajr','Sofyan Amrabat','Aymen Barkok','Selim Amallah','Ilias Chair','Imran Louza','Azzedine Ounahi','Youssef En-Nesyri','Sofiane Boufal','Ayoub El Kaabi','Achraf Bencharki','Munir El Haddadi','Ryan Mmaee','Zakaria Aboukhlal','Abde Ezzalzouli','Tarik Tissoudali',
 		],'posiciones':[
-			'Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero',
+			'POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL','DEL','DEL','DEL','DEL','DEL','DEL',
 		]
     },
 	'Croacia':{
         'jugadores':[
 			'Dominik Livaković','Lovre Kalinić','Simon Sluga','Šime Vrsaljko','Borna Barišić','Duje Ćaleta-Car','Dejan Lovren','Filip Uremović','Josip Juranović','Domagoj Vida','Dario Melnjak','Mateo Kovačić','Luka Modrić','Marcelo Brozović','Nikola Vlašić','Mario Pašalić','Milan Badelj','Ivan Perišić','Josip Brekalo','Ante Budimir','Kristijan Lovrić','Mislav Oršić',
 		],'posiciones':[
-			'Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero',
+			'POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL','DEL','DEL',
 		]
     },
 	'Brasil':{
         'jugadores':[
-			'Ederson','Alisson','Weverton','Dani Alves','Thiago Silva','Alex Sandro','Alex Telles','Marquinhos','Gabriel Magalhães','Éder Militão','Emerson','Junior Messias','Casemiro','Philippe Coutinho','Fred','Fabinho','Gerson','Lucas Paquetá','Bruno Guimarães','Raphinha','Neymar','Gabriel Jesus','Matheus Cunha','Antony','Vinícius Júnior','Rodrygo','Tite',
+			'Ederson','Alisson','Weverton','Dani Alves','Thiago Silva ','Alex Sandro','Alex Telles','Marquinhos','Gabriel Magalhães','Éder Militão','Emerson','Junior Messias','Casemiro','Philippe Coutinho','Fred','Fabinho','Gerson','Lucas Paquetá','Bruno Guimarães','Raphinha','Neymar','Gabriel Jesus','Matheus Cunha','Antony','Vinícius Júnior','Rodrygo','Tite',
 		],'posiciones':[
 			'Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero','Entrenador',
 		]
@@ -185,7 +185,7 @@ const equipos = {
         'jugadores':[
 			'Yvon Mvogo','Jonas Omlin','Yann Sommer','Gregor Kobel','Ricardo Rodríguez','Manuel Akanji','Nico Elvedi','Silvan Widmer','Fabian Schär','Kevin Mbabu','Eray Cömert','Granit Xhaka','Xherdan Shaqiri','Steven Zuber','Denis Zakaria','Remo Freuler','Edimilson Fernandes','Djibril Sow','Haris Seferović','Admir Mehmedi','Breel Embolo','Mario Gavranović','Ruben Vargas','Noah Okafor',
 		],'posiciones':[
-			'Portero','Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero','Delantero',
+			'POR','POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL','DEL','DEL','DEL',
 		]
     },
 	'Camerun':{
@@ -205,7 +205,7 @@ const equipos = {
         'jugadores':[
 			'Adbul Nurudeen','Lawrence Ati-Zigi','Joe Wollacott','Richard Attah','Andy Yiadom','Denis Odoi','Jonathan Mensah','Gideon Mensah','Baba Rahman','Daniel Amartey','Alexander Djiku','Abdul Mumin','Thomas Partey','Edmund Addo','Daniel-Kofi Kyereh','Elisha Owusu','Mubarak Wakaso','Joseph Paintsil','Mohammed Kudus','Iddrisu Baba','Issahaku Fatawu','Jordan Ayew','Felix Afena-Gyan','Yaw Yeboah','Christopher Antwi-Adjei',
 		],'posiciones':[
-			'Portero','Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero','Delantero','Delantero',
+			'POR','POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL','DEL','DEL',
 		]
     },
 	'Uruguay':{
@@ -219,97 +219,7 @@ const equipos = {
         'jugadores':[
 			'Kim Seung-gyu','Jo Hyeon-woo','Gu Sung-yun','Song Bum-keun','Kim Young-gwon','Lee Yong','Kim Jin-su','Kim Min-jae','Kwon Kyung-won','Kim Tae-hwan','Park Ji-soo','Kang Sang-woo','Lee Jae-sung','Jung Woo-young','Kwon Chang-hoon','Hwang In-beom','Song Min-kyu','Lee Dong-gyeong','Paik Seung-ho','Lee Dong-jun','Jeong Woo-yeong','Son Heung-Min','Hwang Ui-jo','Hwang Hee-chan','Kim Gun-hee'
 		],'posiciones':[
-			'Portero','Portero','Portero','Portero','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Defensa','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Mediocampista','Delantero','Delantero','Delantero'
+			'POR','POR','POR','POR','DEF','DEF','DEF','DEF','DEF','DEF','DEF','DEF','MED','MED','MED','MED','MED','MED','MED','MED','MED','MED','DEL','DEL','DEL'
 		]
     }
 };
-let eContainerPaises = document.querySelector('#accordionPaises')
-
-for (let pais in equipos) {
-	divContainer = document.createElement('div');
-	divContainer.innerHTML = `
-	<div class="accordion-item">
-            <h2 class="accordion-header" id="title-${pais}">
-                <button 
-					class="accordion-button" 
-					type="button" 
-					data-bs-toggle="collapse" 
-					data-bs-target="#text-${pais}" 
-					aria-expanded="true" 
-					aria-controls="text-${pais}">
-					${pais}
-                </button>
-            </h2>
-            <div id="text-${pais}" class="accordion-collapse collapse show" aria-labelledby=title-${pais}" data-bs-parent="#accordionPaises">
-                
-				<div class="accordion-body" id="container-${pais}">
-
-                </div>
-            </div>
-        </div>
-	`;
-	eContainerPaises.appendChild(divContainer);
-	playerContainer = document.querySelector(`#container-${pais}`);
-	tableContainer = document.createElement(`table`);
-	tableContainer.setAttribute('id',`table-${pais}`)
-	tableContainer.classList.add('table','table-striped-colums');
-
-	tableThead = document.createElement('thead');
-
-	tableTr = document.createElement('tr');
-
-	thCol = document.createElement('th');
-	thCol.setAttribute('scope','col');
-	thCol.innerText = '#';
-
-	thName = document.createElement('th');
-	thName.setAttribute('scope','col');
-	thName.innerText = 'Nombre';
-
-	thPosicion = document.createElement('th');
-	thPosicion.setAttribute('scope','col');
-	thPosicion.innerText = 'Posicion';
-
-	tableTr.appendChild(thCol);
-	tableTr.appendChild(thName);
-	tableTr.appendChild(thPosicion);
-	tableThead.appendChild(tableTr);
-	tableContainer.appendChild(tableThead)
-	playerContainer.appendChild(tableContainer);
-
-	tableTbody = document.createElement('tbody');
-	tableTbody.setAttribute('id',`tbody-${pais}`)
-	playerContainer.appendChild(tableTbody);
-}
-let countryList = Object.keys(equipos)
-
-countryList.forEach(element => {
-	jugadoreslista = equipos[element].jugadores
-	// console.log(jugadoreslista)
-	posicioneslista = equipos[element].posiciones
-	// console.log(posicioneslista)
-
-	for (let index = 0; index < jugadoreslista.length; index++ ) {
-		
-		const nombreJugador = jugadoreslista[index];
-		const posicionJugador = posicioneslista[index];
-		jugadorItem = document.createElement('tr');
-		
-		rowItem = document.createElement('th');
-		rowItem.setAttribute('scope','row');
-		rowItem.innerText = index+1;
-
-		nameIitem = document.createElement('td');
-		nameIitem.innerText = nombreJugador;
-		positionItem = document.createElement('td');
-		positionItem.innerText = posicionJugador;
-
-		jugadorItem.appendChild(rowItem);
-		jugadorItem.appendChild(nameIitem);
-		jugadorItem.appendChild(positionItem);
-		document.querySelector(`#table-${element}`).appendChild(jugadorItem);
-	}
-});
-
-
-
