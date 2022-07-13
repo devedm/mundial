@@ -223,6 +223,7 @@ const equipos = {
 		]
     }
 };
+
 let eContainerPaises = document.querySelector('#accordionPaises')
 
 for (let pais in equipos) {
@@ -312,4 +313,9 @@ countryList.forEach(element => {
 });
 
 
-
+function exportTxt() {
+	but = document.querySelector('#export-button')
+	let objectText = JSON.stringify(equipos);
+	let blob = new Blob([objectText],{type:'text/plain;charset=utf-8'});
+	but.href = URL.createObjectURL(blob)
+}

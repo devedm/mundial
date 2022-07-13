@@ -2,3 +2,16 @@
     margin: auto;
     width: 1000px;
 }
+
+.center-w1000 {
+    margin: auto;
+    width: 1000px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
